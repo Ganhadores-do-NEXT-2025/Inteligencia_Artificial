@@ -1,0 +1,1433 @@
+{
+  "intents": [
+    {
+      "intent": "apresentar",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "E ai?"
+        },
+        {
+          "text": "E ai mano"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oieee"
+        },
+        {
+          "text": "Oii"
+        },
+        {
+          "text": "Oii, preciso de ajuda"
+        },
+        {
+          "text": "Olá!"
+        },
+        {
+          "text": "Ola, como vai"
+        },
+        {
+          "text": "Olá, gostaria de ajuda"
+        },
+        {
+          "text": "Salve"
+        },
+        {
+          "text": "Tudo bem?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "atendimento_humano",
+      "examples": [
+        {
+          "text": "atendente por favor"
+        },
+        {
+          "text": "atendimento de gente"
+        },
+        {
+          "text": "atendimento humano"
+        },
+        {
+          "text": "falar com atendente humano"
+        },
+        {
+          "text": "falar com humano"
+        },
+        {
+          "text": "falar com suporte humano"
+        },
+        {
+          "text": "me transfere pra um humano"
+        },
+        {
+          "text": "posso falar com alguém?"
+        },
+        {
+          "text": "posso falar com algum atendente humano?"
+        },
+        {
+          "text": "posso falar com suporte?"
+        },
+        {
+          "text": "quero atendimento de gente"
+        },
+        {
+          "text": "quero atendimento humano"
+        },
+        {
+          "text": "quero falar com alguém"
+        },
+        {
+          "text": "quero falar com atendente"
+        },
+        {
+          "text": "tem alguém para atender?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cancelar_consulta",
+      "examples": [
+        {
+          "text": "cancela meu agendamento médico"
+        },
+        {
+          "text": "cancela pra mim"
+        },
+        {
+          "text": "cancelar"
+        },
+        {
+          "text": "cancele a consulta"
+        },
+        {
+          "text": "como cancelo meu atendimento médico?"
+        },
+        {
+          "text": "como cancelo minha consulta?"
+        },
+        {
+          "text": "desmarcar consulta"
+        },
+        {
+          "text": "desmarcar horário"
+        },
+        {
+          "text": "gostaria de cancelar minha consulta"
+        },
+        {
+          "text": "não vou conseguir comparecer"
+        },
+        {
+          "text": "quero cancelar minha consulta"
+        },
+        {
+          "text": "tem como cancelar?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "até a próxima"
+        },
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "encerra por favor"
+        },
+        {
+          "text": "encerrar"
+        },
+        {
+          "text": "finalizando"
+        },
+        {
+          "text": "Finalizar agendamento"
+        },
+        {
+          "text": "Finalizar atendimento"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "obrigado! Tchau tchau"
+        },
+        {
+          "text": "pode fechar"
+        },
+        {
+          "text": "sair"
+        },
+        {
+          "text": "tchau"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "informacoes_teleatendimento",
+      "examples": [
+        {
+          "text": "Atendem pelo computador ou celular?"
+        },
+        {
+          "text": "Como entro na plataforma da Lucy Montoro?"
+        },
+        {
+          "text": "Como funciona o teleatendimento?"
+        },
+        {
+          "text": "Dá pra ser por chamada de vídeo?"
+        },
+        {
+          "text": "Me explica como acessar a consulta virtual"
+        },
+        {
+          "text": "Onde acesso o link da consulta remota?"
+        },
+        {
+          "text": "Preciso de ajuda com o atendimento remoto"
+        },
+        {
+          "text": "Quais horários do atendimento online?"
+        },
+        {
+          "text": "Queria usar o atendimento online"
+        },
+        {
+          "text": "Teleconsulta está disponível?"
+        },
+        {
+          "text": "Telemedicina está funcionando?"
+        },
+        {
+          "text": "Tem consulta por vídeo?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "localizacao_hospital",
+      "examples": [
+        {
+          "text": "como eu chego aí?"
+        },
+        {
+          "text": "endereço da consulta"
+        },
+        {
+          "text": "me passa o endereço dai"
+        },
+        {
+          "text": "onde devo ir?"
+        },
+        {
+          "text": "onde é o local?"
+        },
+        {
+          "text": "onde fica a clínica?"
+        },
+        {
+          "text": "onde vocês estão?"
+        },
+        {
+          "text": "perto de onde fica?"
+        },
+        {
+          "text": "qual a localização?"
+        },
+        {
+          "text": "qual o caminho pra clínica?"
+        },
+        {
+          "text": "qual o endereço?"
+        },
+        {
+          "text": "qual o ponto de referência?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "minhas_consultas",
+      "examples": [
+        {
+          "text": "Como estão minhas consultas?"
+        },
+        {
+          "text": "Consultas agendadas, tem alguma?"
+        },
+        {
+          "text": "Consultas futuras, por favor"
+        },
+        {
+          "text": "Me ajuda com minhas consultas"
+        },
+        {
+          "text": "Me mostra minhas próximas consultas"
+        },
+        {
+          "text": "Onde vejo minhas consultas?"
+        },
+        {
+          "text": "Pode verificar minhas consultas?"
+        },
+        {
+          "text": "Quais consultas eu tenho marcadas?"
+        },
+        {
+          "text": "Quero saber das minhas consultas"
+        },
+        {
+          "text": "Quero ver minhas consultas"
+        },
+        {
+          "text": "Tenho alguma consulta pra hoje?"
+        },
+        {
+          "text": "Tenho consulta marcada?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "primeira_consulta",
+      "examples": [
+        {
+          "text": "Agendar consulta pela primeira vez"
+        },
+        {
+          "text": "Como faço pra agendar minha primeira consulta?"
+        },
+        {
+          "text": "É meu primeiro atendimento no HC"
+        },
+        {
+          "text": "É minha primeira vez no hospital"
+        },
+        {
+          "text": "Gostaria de começar o tratamento"
+        },
+        {
+          "text": "Nunca fiz consulta aqui, como começo?"
+        },
+        {
+          "text": "Nunca fui atendido, quero marcar"
+        },
+        {
+          "text": "Nunca me consultei, quero começar agora"
+        },
+        {
+          "text": "Posso marcar uma consulta nova?"
+        },
+        {
+          "text": "Primeira consulta no IMREA"
+        },
+        {
+          "text": "Quero atendimento pela primeira vez"
+        },
+        {
+          "text": "Quero marcar minha primeira consulta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "remarcar_consulta",
+      "examples": [
+        {
+          "text": "Gostaria de remarcar minha consulta"
+        },
+        {
+          "text": "mudar o horário do atendimento médico"
+        },
+        {
+          "text": "não posso ir no horário marcado"
+        },
+        {
+          "text": "posso mudar a data da consulta?"
+        },
+        {
+          "text": "preciso trocar o dia da consulta"
+        },
+        {
+          "text": "quero adiar a consulta"
+        },
+        {
+          "text": "quero outro horário para consulta"
+        },
+        {
+          "text": "quero remarcar"
+        },
+        {
+          "text": "reagendar"
+        },
+        {
+          "text": "remarcar atendimento médico"
+        },
+        {
+          "text": "remarcar consulta"
+        },
+        {
+          "text": "remarcar consulta médica pro fim de semana"
+        },
+        {
+          "text": "trocar dia da consulta"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cpf",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cpf",
+          "patterns": [
+            "(\\d{3}.\\d{3}.\\d{3}-\\d{2})",
+            "(\\d{11})"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "especialidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fisioterapia",
+          "synonyms": [
+            "fisio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fonoaudiologia",
+          "synonyms": [
+            "fono"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ortopedia",
+          "synonyms": [
+            "médico de ossos",
+            "reabilitação física",
+            "tratar ossos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psicologia",
+          "synonyms": [
+            "apoio psicológico",
+            "pscicólogo",
+            "terapia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Terapia ocupacional",
+          "synonyms": [
+            "Ocupacional",
+            "TO"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Regiões",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Centro",
+          "synonyms": [
+            "centrao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zona Leste",
+          "synonyms": [
+            "Leste",
+            "Região Leste",
+            "ZL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zona Norte",
+          "synonyms": [
+            "Norte",
+            "Região Norte",
+            "ZN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zona Oeste",
+          "synonyms": [
+            "Oeste",
+            "Região Oeste",
+            "Zo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zona Sul",
+          "synonyms": [
+            "Região Sul",
+            "Sul",
+            "ZS"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim_nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "N",
+            "ñ",
+            "nao",
+            "Negativo",
+            "nn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "Com certeza",
+            "Positivo",
+            "S",
+            "Si",
+            "Ss"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "tipo_consulta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "presencial",
+          "synonyms": [
+            "mundo real",
+            "vida real"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "virtual",
+          "synonyms": [
+            "online",
+            "por vídeos",
+            "remota",
+            "teleatendimento",
+            "teleconsulta"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E aí! Aqui é o Clínico, seu parceiro digital no Hospital das Clínicas. Fala comigo que eu te ajudo rapidinho 😊.\n\nVocê pode me perguntar sobre:\n📅 Consultas\n📍 Localização\n🧑‍⚕️ Atendimento Humano"
+              },
+              {
+                "text": "E aí! Aqui é o Clínico, seu parceiro digital no Hospital das Clínicas. Fala comigo que eu te ajudo rapidinho 😊.\n\nVocê pode me perguntar sobre:\n📅 Consultas\n📍 Localização\n🧑‍⚕️ Atendimento Humano"
+              },
+              {
+                "text": "E aí! Aqui é o Clínico, seu parceiro digital no Hospital das Clínicas. Fala comigo que eu te ajudo rapidinho 😊.\n\nVocê pode me perguntar sobre:\n📅 Consultas\n📍 Localização\n🧑‍⚕️ Atendimento Humano"
+              },
+              {
+                "text": "E aí! Aqui é o Clínico, seu parceiro digital no Hospital das Clínicas. Fala comigo que eu te ajudo rapidinho 😊.\n\nVocê pode me perguntar sobre:\n📅 Consultas\n📍 Localização\n🧑‍⚕️ Atendimento Humano"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #apresentar",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase. 🤔"
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo. 🤔"
+              },
+              {
+                "text": "Eu não entendi o sentido. 🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_6_1747423616512",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1747430022712",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_2_1747430022719"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1747428356255",
+      "context": {
+        "cpf": "@cpf"
+      },
+      "conditions": "@cpf",
+      "event_name": "input",
+      "dialog_node": "handler_3_1747428356261"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1747430022712",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1747430022719",
+      "previous_sibling": "handler_2_1747430022719"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1747447429375",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_4_1747447429383"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1747428356255",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1747428356261",
+      "previous_sibling": "handler_3_1747428356261"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1747447429375",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1747447429383",
+      "previous_sibling": "handler_4_1747447429383"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1747447124254",
+      "context": {
+        "cpf": "@cpf"
+      },
+      "conditions": "@cpf",
+      "event_name": "input",
+      "dialog_node": "handler_7_1747447124254"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1747447124254",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1747447124254",
+      "previous_sibling": "handler_7_1747447124254"
+    },
+    {
+      "type": "frame",
+      "title": "Data Selecionada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Prontinho! Sua primeira consulta foi marcada com sucesso para o dia $date ✅.\n\nComo é sua primeira vez, o atendimento será presencial. Você deve comparecer no dia agendado ao endereço: \nAv. Dr. Enéas Carvalho de Aguiar, 255 – Cerqueira César, São Paulo (IMREA – Instituto de Medicina Física e Reabilitação). \n\nChegue com 15 min de antecedência e leve seus documentos. Qualquer coisa, tô por aqui! 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1747447226737",
+      "conditions": "@sys-date",
+      "dialog_node": "node_10_1747447386803"
+    },
+    {
+      "type": "standard",
+      "title": "Regiao ZN",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🟥 Zona Norte\n\nVá até a Linha-1-Azul e siga pela Linha 2-Verde, acessando-a pela estação Paraíso ou Ana Rosa. De lá, vá até Clínicas. Ou, se preferir, ônibus direto até Av. Dr. Enéas Carvalho de Aguiar!\n\nHospital das Clínicas (sede principal): Rua Dr. Enéas Carvalho de Aguiar, 255 – Cerqueira César, São Paulo\n\nCaso necessário, segue link do Google Maps para a nossa sede principal! 😊\n\nhttps://maps.app.goo.gl/ei6gzqsXYQfJMixU9\n\nTe ajudo com mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1747425095782",
+      "conditions": "@Regiões:(Zona Norte)",
+      "dialog_node": "node_10_1747448295761",
+      "previous_sibling": "node_3_1747448265976"
+    },
+    {
+      "type": "standard",
+      "title": "Qualquer outra coisa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, não entendi qual a sua região. Poderia repetir? 🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1747425095782",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1747425095782"
+      },
+      "conditions": "@Regiões != \"Zona Leste\" ||       @Regiões != \"Zona Sul\" ||      @Regiões != \"Zona Oeste\" ||    @Regiões != \"Zona Norte\" ||   @Regiões != \"Centro\"",
+      "dialog_node": "node_10_1747448406958",
+      "previous_sibling": "node_5_1747448353611"
+    },
+    {
+      "type": "standard",
+      "title": "Local + Região Oeste",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1747448316953"
+      },
+      "conditions": "#localizacao_hospital && @Regiões:(Zona Oeste)",
+      "dialog_node": "node_10_1747449760903",
+      "previous_sibling": "node_11_1747449763318"
+    },
+    {
+      "type": "standard",
+      "title": "Local + Região Norte",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1747448295761"
+      },
+      "conditions": "#localizacao_hospital && @Regiões:(Zona Norte)",
+      "dialog_node": "node_11_1747449763318",
+      "previous_sibling": "node_12_1747449764560"
+    },
+    {
+      "type": "standard",
+      "title": "Remarcar Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, vamos remarcar! Me diga seu CPF. Assim eu posso verificar qual a sua próxima consulta e ajudar a escolher um novo dia, tá bom? 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747450146609",
+      "conditions": "#remarcar_consulta",
+      "dialog_node": "node_1_1747429452222",
+      "previous_sibling": "node_5_1747447080196"
+    },
+    {
+      "type": "standard",
+      "title": "Cancelar Consulta + CPF",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1747428261821"
+      },
+      "conditions": "#cancelar_consulta && @cpf",
+      "dialog_node": "node_1_1747449676816",
+      "previous_sibling": "node_2_1747449569481"
+    },
+    {
+      "type": "standard",
+      "title": "Local + Região Sul",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1747448265976"
+      },
+      "conditions": "#localizacao_hospital && @Regiões:(Zona Sul)",
+      "dialog_node": "node_12_1747449764560",
+      "previous_sibling": "node_8_1747449710979"
+    },
+    {
+      "type": "frame",
+      "title": "Nova data",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A data da consulta foi alterada para $date 📅🥳.\n\nPrecisa de ajuda com mais alguma coisa? ☺️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1747429645018",
+      "conditions": "@sys-date",
+      "dialog_node": "node_2_1747430002976"
+    },
+    {
+      "type": "standard",
+      "title": "Selecionar Especialidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Show! 😊 Pra finalizar, me diz uma data que seria boa pra você marcar a consulta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1747447124253",
+      "conditions": "@especialidade",
+      "dialog_node": "node_2_1747447226737"
+    },
+    {
+      "type": "standard",
+      "title": "Remarcar Consulta + CPF",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1747429645018"
+      },
+      "conditions": "#remarcar_consulta && @cpf",
+      "dialog_node": "node_2_1747449569481",
+      "previous_sibling": "node_3_1747449477193"
+    },
+    {
+      "type": "standard",
+      "title": "Regiao ZS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🟩 Zona Sul\n\nVocê pode usar a Linha 9-Esmeralda da CPTM ou a Linha 5-Lilás, fazendo baldeação até a Linha 2-Verde. A estação Clínicas te deixa quase na porta do hospital. Fácil, fácil!\n\nHospital das Clínicas (sede principal): Rua Dr. Enéas Carvalho de Aguiar, 255 – Cerqueira César, São Paulo\n\nCaso necessário, segue link do Google Maps para a nossa sede principal! 😊\n\nhttps://maps.app.goo.gl/ei6gzqsXYQfJMixU9\n\nTe ajudo com mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1747425095782",
+      "conditions": "@Regiões:(Zona Sul)",
+      "dialog_node": "node_3_1747448265976",
+      "previous_sibling": "node_9_1747448172175"
+    },
+    {
+      "type": "standard",
+      "title": "Primeira Consulta + CPF",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1747447124253"
+      },
+      "conditions": "#primeira_consulta && @cpf",
+      "dialog_node": "node_3_1747449477193",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Jump To Cancelar Consulta",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1747428149629"
+      },
+      "conditions": "#cancelar_consulta",
+      "dialog_node": "node_3_1747450270136",
+      "previous_sibling": "node_4_1747450270620"
+    },
+    {
+      "type": "standard",
+      "title": "CPF Invalido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CPF Inválido! Digite novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1747429452222",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1747429645018"
+      },
+      "conditions": "@cpf != \"cpf\"",
+      "dialog_node": "node_4_1747429862616",
+      "previous_sibling": "node_5_1747429645018"
+    },
+    {
+      "type": "standard",
+      "title": "Minhas consultas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! 😊 Vamos cuidar das suas consultas. Você quer ver, remarcar ou cancelar alguma? Me diga o que deseja fazer!\n\n🩺 Primeira Consulta\n🔄 Remarcar Consulta\n❌ Cancelar Consulta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#minhas_consultas",
+      "dialog_node": "node_4_1747450146609",
+      "previous_sibling": "node_3_1747450270136"
+    },
+    {
+      "type": "standard",
+      "title": "Jump to Remarcar Consulta",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1747429452222"
+      },
+      "conditions": "#remarcar_consulta",
+      "dialog_node": "node_4_1747450270620",
+      "previous_sibling": "node_6_1747450269619"
+    },
+    {
+      "type": "frame",
+      "title": "CPF Valido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CPF $cpf encontrado! Iremos prosseguir com o cancelamento da sua consulta. 😉\n\nPrecisa de ajuda com mais alguma coisa? ☺️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1747428149629",
+      "context": {
+        "cpf": "@cpf.literal"
+      },
+      "conditions": "@cpf:cpf",
+      "dialog_node": "node_5_1747428261821"
+    },
+    {
+      "type": "frame",
+      "title": "CPF Valido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! Para finalizar, basta me dizer a data que deseja marcar a nova consulta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1747429452222",
+      "conditions": "@cpf:cpf",
+      "dialog_node": "node_5_1747429645018"
+    },
+    {
+      "type": "standard",
+      "title": "Primeira Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro, vamos agendar sua primeira consulta! 😊 Só preciso do seu CPF pra começar. Pode me informar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747450146609",
+      "conditions": "#primeira_consulta",
+      "dialog_node": "node_5_1747447080196"
+    },
+    {
+      "type": "frame",
+      "title": "CPF Valido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito! Agora me diga qual especialidade você precisa: fisioterapia, fonoaudiologia, terapia ocupacional, psicologia... ou outra?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1747447080196",
+      "context": {
+        "cpf": "@cpf.literal"
+      },
+      "conditions": "@cpf:cpf",
+      "dialog_node": "node_5_1747447124253"
+    },
+    {
+      "type": "standard",
+      "title": "Regiao Centro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🟫 Região Central\n\nVocê provavelmente está bem perto! A estação Clínicas (Linha 2-Verde) é a mais próxima do hospital. Se já estiver no centro, qualquer baldeação até a Linha Verde vai resolver rapidinho!\n\nHospital das Clínicas (sede principal): Rua Dr. Enéas Carvalho de Aguiar, 255 – Cerqueira César, São Paulo\n\nCaso necessário, segue link do Google Maps para a nossa sede principal! 😊\n\nhttps://maps.app.goo.gl/ei6gzqsXYQfJMixU9\n\nTe ajudo com mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1747425095782",
+      "conditions": "@Regiões:Centro",
+      "dialog_node": "node_5_1747448353611",
+      "previous_sibling": "node_6_1747448316953"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qualquer coisa, tô por aqui. Até mais! 👋"
+              },
+              {
+                "text": "Foi um prazer te ajudar. Até a próxima! 😊"
+              },
+              {
+                "text": "Se precisar de mim de novo, é só chamar. Abraço!"
+              },
+              {
+                "text": "Estarei a disposição em caso de mais duvidas. Tchau tchau! 👋"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#despedida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1747423616512",
+      "previous_sibling": "node_8_1747424136944"
+    },
+    {
+      "type": "standard",
+      "title": "CPF Invalido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CPF Invalido! Digite novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1747428149629",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1747428261821"
+      },
+      "conditions": "@cpf != \"cpf\"",
+      "dialog_node": "node_6_1747429188332",
+      "previous_sibling": "node_5_1747428261821"
+    },
+    {
+      "type": "standard",
+      "title": "CPF Inválido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "CPF Invalido! Digite novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1747447080196",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1747447124253"
+      },
+      "conditions": "@cpf != \"cpf\"",
+      "dialog_node": "node_6_1747447148296",
+      "previous_sibling": "node_5_1747447124253"
+    },
+    {
+      "type": "standard",
+      "title": "Regiao ZO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🟨 Zona Oeste\n\nEssa é tranquila! Se estiver perto da Linha Amarela, vá até a estação Paulista e troque para a Linha Verde na Consolação. Em duas estações você chega na Clínicas. Dá pra ir até andando dependendo do bairro!\n\nHospital das Clínicas (sede principal): Rua Dr. Enéas Carvalho de Aguiar, 255 – Cerqueira César, São Paulo\n\nCaso necessário, segue link do Google Maps para a nossa sede principal! 😊\n\nhttps://maps.app.goo.gl/ei6gzqsXYQfJMixU9\n\nTe ajudo com mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1747425095782",
+      "conditions": "@Regiões:(Zona Oeste)",
+      "dialog_node": "node_6_1747448316953",
+      "previous_sibling": "node_10_1747448295761"
+    },
+    {
+      "type": "standard",
+      "title": "Jump To Primeira Consulta",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1747447080196"
+      },
+      "conditions": "#primeira_consulta",
+      "dialog_node": "node_6_1747450269619",
+      "previous_sibling": "node_9_1747449758740"
+    },
+    {
+      "type": "standard",
+      "title": "Local",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou te explicar como chegar até o Hospital das Clínicas de forma fácil, de acordo com a região onde você mora. 🗺️\n\nPrimeiro, me informe: Qual sua região?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#localizacao_hospital",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1747425095782",
+      "previous_sibling": "node_4_1747450146609"
+    },
+    {
+      "type": "standard",
+      "title": "Humano",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo certo! Vou te passar para um atendente, só um instante! 😊"
+              },
+              {
+                "text": "Sem problemas! Um momento, vou te encaminhar para um atendimento humano. 🫶"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#atendimento_humano",
+      "dialog_node": "node_8_1747424136944",
+      "previous_sibling": "node_9_1747447628094"
+    },
+    {
+      "type": "standard",
+      "title": "Cancelar Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem! 😊 Só preciso confirmar alguns dados pra cancelar sua próxima consulta com segurança. Consegue me confirmar seu CPF?"
+              },
+              {
+                "text": "Entendido! Me passa seu CPF para que eu cuide disso para você, tá bom?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747450146609",
+      "conditions": "#cancelar_consulta",
+      "dialog_node": "node_8_1747428149629",
+      "previous_sibling": "node_1_1747429452222"
+    },
+    {
+      "type": "standard",
+      "title": "Local + Região Leste",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1747448172175"
+      },
+      "conditions": "#localizacao_hospital && @Regiões:(Zona Leste)",
+      "dialog_node": "node_8_1747449710979",
+      "previous_sibling": "node_1_1747449676816"
+    },
+    {
+      "type": "standard",
+      "title": "Teleatendimento Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ótima pergunta! 👨‍⚕️ Aqui vai um resumão sobre o teleatendimento do HC pra tirar suas dúvidas:\n\n📌 O que é o teleatendimento?\nÉ uma consulta feita por chamada de vídeo, direto do seu celular ou computador — sem precisar sair de casa.\n\n🕒 Preciso agendar antes?\nSim! O atendimento online também precisa ser agendado. Se quiser, posso te ajudar com isso.\n\n📲 Preciso de algum aplicativo?\nSim! A plataforma usada é da Rede Lucy Montoro. Você pode acessar por este link:\nhttps://redelucymontoro.org.br/site/area-do-paciente/teleatendimento\n\n🧑‍💻 Não sei mexer em tecnologia... e agora?\nFica tranquilo! A página tem vídeos explicativos e cartilhas pra te ajudar passo a passo. E se quiser, eu te explico por aqui também!\n\n❗ Importante: Para sua segurança, o atendimento online funciona só no horário agendado. Fique de olho no dia e na hora certinhos!\n\nSe quiser mais detalhes ou tiver outra dúvida, é só me perguntar! Tô aqui pra te ajudar. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informacoes_teleatendimento",
+      "dialog_node": "node_9_1747447628094",
+      "previous_sibling": "node_7_1747425095782"
+    },
+    {
+      "type": "standard",
+      "title": "Regiao ZL",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🟦 Zona Leste\n\nPegue a Linha 3-Vermelha do metrô e vá até a estação Paulista (Linha Amarela) fazendo a baldeação na Sé ou na República. Depois, siga até a estação Clínicas, que fica coladinha no hospital!\n\nHospital das Clínicas (sede principal): Rua Dr. Enéas Carvalho de Aguiar, 255 – Cerqueira César, São Paulo\n\nCaso necessário, segue link do Google Maps para a nossa sede principal! 😊\n\nhttps://maps.app.goo.gl/ei6gzqsXYQfJMixU9\n\nTe ajudo com mais alguma coisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1747425095782",
+      "conditions": "@Regiões:(Zona Leste)",
+      "dialog_node": "node_9_1747448172175"
+    },
+    {
+      "type": "standard",
+      "title": "Local + Região Centro",
+      "output": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1747448353611"
+      },
+      "conditions": "#localizacao_hospital && @Regiões:Centro",
+      "dialog_node": "node_9_1747449758740",
+      "previous_sibling": "node_10_1747449760903"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1747430002976",
+      "variable": "$date",
+      "dialog_node": "slot_2_1747430022712"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1747447124253",
+      "variable": "$cpf",
+      "dialog_node": "slot_6_1747447124254",
+      "previous_sibling": "node_2_1747447226737"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1747447386803",
+      "variable": "$date",
+      "dialog_node": "slot_6_1747447429375"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1747428261821",
+      "variable": "$cpf",
+      "dialog_node": "slot_8_1747428356255"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "SprintBot-dialog"
+}
