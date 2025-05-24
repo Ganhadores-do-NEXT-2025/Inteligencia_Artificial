@@ -112,6 +112,9 @@
           "text": "cancelar"
         },
         {
+          "text": "Cancelar consulta"
+        },
+        {
           "text": "cancele a consulta"
         },
         {
@@ -202,6 +205,12 @@
           "text": "Dá pra ser por chamada de vídeo?"
         },
         {
+          "text": "Duvidas"
+        },
+        {
+          "text": "FAQ"
+        },
+        {
           "text": "Me explica como acessar a consulta virtual"
         },
         {
@@ -287,6 +296,9 @@
         },
         {
           "text": "Me mostra minhas próximas consultas"
+        },
+        {
+          "text": "Minhas consultas"
         },
         {
           "text": "Onde vejo minhas consultas?"
